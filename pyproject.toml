@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "facial-recognition"
+version = "0.1.0"
+description = ""
+authors = ["Vita Huang <bexo@gastom.com.tw>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.0"
+tensorflow = "^2.20.0"
+opencv-python = "^4.12.0.88"
+numpy = "^2.0.0"
+matplotlib = "^3.7.0"
+flask = "^3.0.0"
+flask-cors = "^4.0.0"
+pillow = "^10.0.0"
+kivy = "^2.3.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^7.1.0"
+pytest = "^7.4.0"
+hypothesis = "^6.82.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,15 @@
+{
+  "similarity_threshold": 0.5,
+  "std_deviation_threshold": 0.2,
+  "min_face_size": [
+    50,
+    50
+  ],
+  "target_image_size": [
+    100,
+    100
+  ],
+  "cascade_classifier_path": "haarcascade_frontalface_default.xml",
+  "verification_images_path": "application_data/verification_images",
+  "log_file_path": "logs/verification.log"
+}

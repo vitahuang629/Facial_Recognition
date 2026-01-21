@@ -1,0 +1,23 @@
+# Python Standard
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Project Specific - Large Files & Models
+*.h5
+lfw-deepfunneled/
+
+# Application Data
+application_data/input_image/
+application_data/verification_images/
