@@ -1,4 +1,4 @@
-## 📌 專案背景 (Project Overview)
+## 專案背景 (Project Overview)
 在醫美診所營運中，識別客戶身份是提供客製化服務的第一步。然而，新客戶的臉部影像樣本通常只有 1-2 張，傳統的大型分類模型（Classification）難以在樣本極少的情況下運作。
 
 本專案利用 **Siamese Network (孿生網路)** 成功實作了 **One-Shot Learning**：
@@ -7,7 +7,7 @@
 
 ---
 
-## 🚀 技術架構 (Technical Architecture)
+## 技術架構 (Technical Architecture)
 
 ### 1. Siamese Network 模型設計
 * **特徵提取 (Embedding)**：使用共享權重的卷積神經網絡 (CNN)，將影像映射至一個 128 維的特徵空間。
@@ -24,7 +24,7 @@
 
 ---
 
-## 🛠 核心功能 (Key Features)
+## 核心功能 (Key Features)
 
 - **One-Shot Learning**：見一次就能認得，適合客戶流動性大的診所場景。
 - **動態註冊**：新增員工或客戶時，只需存入一張照片即可完成部署。
@@ -32,7 +32,7 @@
 
 ---
 
-## 📖 測試指南 (Usage Guide)
+## 測試指南 (Usage Guide)
 
 如果您想要測試本系統的辨識功能，請按照以下步驟操作：
 
